@@ -17,15 +17,16 @@ class Guardian
     public function handle($request, Closure $next, $role)
     {
         $user = Auth::user();
-        dd($user);
         if ($user == null) 
         {
+            dd('AQUI ESTOY');
             return redirect('/');
         }
 
         $user_rol = DB::table('role_user')->where('user_id', $user->id)->get();
         if ($user_rol[0]->role_id != $role) 
         {
+            dd('AQUI ESTOY');
             return redirect('/');
         }
 
