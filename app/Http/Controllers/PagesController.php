@@ -11,7 +11,6 @@ class PagesController extends Controller
 {
     public function redirect()
     {
-        dd(!Auth::check());
         if (!Auth::check())
         {
             return redirect('/');

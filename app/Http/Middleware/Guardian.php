@@ -17,6 +17,7 @@ class Guardian
     public function handle($request, Closure $next, $role)
     {
         $user = Auth::user();
+        dd($user);
         if ($user == null) 
         {
             return redirect('/');
