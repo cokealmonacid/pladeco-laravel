@@ -1,0 +1,26 @@
+body{
+	background:#FFFFFF !important;
+}
+
+
+.img-logo{
+	text-align:center;
+	margin:1em 0;
+}
+
+.img-logo img{
+	width:150px;
+}
+
+#login-template legend{
+	text-align: center;
+}
+
+#login-template label{
+	color:#000000 !important;
+	font-size:1.2em;
+}
+
+#login-template .col-lg-12{
+	text-align:center;
+}

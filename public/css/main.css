@@ -1,0 +1,198 @@
+body{
+	font-size:16px !important;
+}
+
+#manager-inicio, #manager-cuenta{
+	background:#FFFFFF;
+	-webkit-box-shadow: 2px 1px 15px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 1px 15px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 1px 15px 0px rgba(50, 50, 50, 0.75);
+	padding:1em 2em;
+	text-align: justify;
+	margin-bottom: 1em;
+}
+
+#manager-inicio p{
+	font-size:.9em !important;
+}
+
+#manager-inicio #logo-muni{
+	text-align: center;
+}
+
+#manager-inicio #logo-muni img{
+	width: 150px;
+}
+
+#logo-muni-2 img{
+	float:right;
+	width: 80px;
+}
+
+.avance .progress, #componente-container .progress, #manager-inicio .progress, #componente-ajeno{
+	height:30px !important;
+}
+
+.avance .progress #progress{
+	text-align:center !important;
+}
+
+.avance .progress #progress p, #componente-container .progress #progress p, #manager-inicio .progress p, #componente-ajeno{
+	font-size:1.5em !important;
+	margin-top:5px;
+}
+
+.details #details-col-1{
+	padding-right:.5em;
+	padding-left: 0;
+}
+
+.details #details-col-2{
+	padding-left: .5em;
+	padding-right: 0;
+}
+
+.details #details-col-2 .progress{
+	height: 25px !important;
+}
+
+#more-administrador, #componente-container #more{
+	float:right;
+	background-color:#0066ff;
+	border:1px solid #0066ff;
+	border-radius:5px;
+	padding:.3em 1em;
+}
+
+#more-administrador a, #componente-container #more a{
+	color:#FFFFFF;
+}
+
+#iniciativa-show{
+	margin-bottom: 1em;
+}
+
+#iniciativa-show #boton-medios{
+	text-align:center;
+	margin-bottom:3em;
+}
+
+#iniciativa-show #boton-medios .medio{
+	background:#666633;
+	color:#FFFFFF;
+}
+
+#iniciativa-show #botones{
+	text-align:center;
+}
+
+#iniciativa-show #botones .aceptar{
+	background:#0066ff;
+	color:#FFFFFF;
+}
+
+#iniciativa-show #botones .modificar{
+	background:#cc3300;
+	color:#FFFFFF;
+}
+
+#iniciativa-show #botones .cancelar{
+	background:red;
+	color:#FFFFFF;
+}
+
+#iniciativa-show #botones .solicitud{
+	background:#009900;
+	color:#FFFFFF;
+}
+
+#iniciativa-show  .agregar{
+	background:#333333;
+	color:#FFFFFF;
+}
+
+#edit-iniciativa label{
+	color:#000000 !important;
+	font-weight: bold;
+}
+
+#edit-iniciativa p{
+	padding:0 2em;
+}
+
+form .form-group #input_file_label{
+	text-align: center;
+}
+
+form .form-group #input_file{
+	border:1px solid #595959;
+	height: 20px;
+	padding:0;
+}
+
+form .upload-file{
+	background:#595959;
+	color:#FFFFFF !important;
+	float:right;
+}
+
+form .upload-file:hover{
+	background:#595959 !important;
+	color:#000000 !important;
+}
+
+#boton-eliminar p{
+	float:right;
+}
+
+#historial p{
+	font-size:.8em;
+}
+
+#historial #historial-iniciativa{
+	border-left: 5px solid red;
+}
+#historial #historial-verificacion{
+	border-left: 5px solid blue;
+}
+#historial #historial-actividad{
+	border-left: 5px solid green;
+}
+#historial #historial-indicador{
+	border-left: 5px solid yellow;
+}
+
+#iniciativa-pendiente #botones{
+	text-align:center;
+}
+
+#iniciativa-pendiente #botones .medio{
+	background:red !important;
+	color:white !important;
+}
+
+#iniciativa-pendiente #botones .solicitud{
+	background:#0066ff !important;
+	color:white !important;
+}
+
+.row .btn-file {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.row .btn-file input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#manager-cuenta .panel-heading{
+	text-align: center;
+}
