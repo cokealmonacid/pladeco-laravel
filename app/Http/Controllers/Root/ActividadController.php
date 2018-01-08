@@ -27,7 +27,7 @@ class ActividadController extends Controller
 
     public function createActividad()
     {
-    	$iniciativas = Iniciativa::all();
+    	$iniciativas = Componente::all();
 
     	return view('Root.Actividades.register', compact('iniciativas'));
     }
