@@ -26,7 +26,7 @@ class IndicadorController extends Controller
 
     public function createIndicador()
     {
-    	$iniciativas = Iniciativa::all();
+    	$iniciativas = Componente::all();
 
     	return view('Root.Indicadores.register', compact('iniciativas'));
     }
