@@ -34,7 +34,7 @@
                         <div class="col-lg-10">
                             <select class="form-control" id="iniciativa" name="iniciativa[]" multiple>
                                 @foreach($iniciativas as $iniciativa)
-                                    <option value="{!! $iniciativa->id !!}">{!! $iniciativa->objetive !!}</option>
+                                    <option value="{!! $iniciativa->id !!}">{!! $iniciativa->name !!}</option>
                                 @endforeach
                             </select>
                         </div>
