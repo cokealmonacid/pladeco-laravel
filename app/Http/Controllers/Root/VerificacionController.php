@@ -26,7 +26,7 @@ class VerificacionController extends Controller
 
     public function createVerificacion()
     {
-    	$iniciativas = Iniciativa::all();
+    	$iniciativas = Componente::all();
 
     	return view('Root.Verificaciones.register', compact('iniciativas'));
     }
