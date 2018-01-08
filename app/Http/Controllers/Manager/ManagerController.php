@@ -76,6 +76,14 @@ class ManagerController extends Controller
                         }
                     }
 
+                    if(isset($verificacionesN)){
+                        $verificacionesN = 0;
+                    }
+
+                    if(isset($verificacionesT)){
+                        $verificacionesT = 0;
+                    }
+
                     if($verificacionesN == 0){
                         $componente->porcentaje = 0;
                     } else {
