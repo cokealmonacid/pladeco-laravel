@@ -52,7 +52,7 @@ class ManagerController extends Controller
         $cantInd = 0;
         $cantAct = 0;
         $cantMV = 0;
-        $verificacionesN = 0;
+        $verificacionesN = 1;
 
         foreach ($componentes as $componente) {
             $inic = Iniciativa::where('componente_id', $componente->id)->count();
