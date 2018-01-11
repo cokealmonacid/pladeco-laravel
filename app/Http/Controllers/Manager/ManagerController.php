@@ -52,6 +52,7 @@ class ManagerController extends Controller
         $cantInd = 0;
         $cantAct = 0;
         $cantMV = 0;
+        $verificacionesN = 0;
 
         foreach ($componentes as $componente) {
             $inic = Iniciativa::where('componente_id', $componente->id)->count();
@@ -67,8 +68,6 @@ class ManagerController extends Controller
                 if ($iniciativa->componente_id == $componente->id) {
 
                     $verificacionesN = Verificacion::where('iniciativa_id', $iniciativa->id)->count();
-
-                    return $verificacionesN;
 
                     $verificacionesT = Verificacion::where('iniciativa_id', $iniciativa->id)->get();
 
