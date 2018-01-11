@@ -68,7 +68,7 @@ class ManagerController extends Controller
 
                     $verificacionesN = Verificacion::where('iniciativa_id', $iniciativa->id)->count();
 
-                    dd($verificacionesN);
+                    return $verificacionesN;
 
                     $verificacionesT = Verificacion::where('iniciativa_id', $iniciativa->id)->get();
 
